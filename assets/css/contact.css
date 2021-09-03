@@ -1,0 +1,42 @@
+.main-contact {
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 20px;
+
+}
+
+.form-contact {
+    margin: 40px 0;
+ }
+
+.entry-label {
+    display: block;
+    margin: 8px auto;
+    width: 50%;
+}
+
+.entry, .form-contact textarea {
+    display: block;
+    margin: 0 auto 25px;
+    padding: 4px 9px;
+    font-size: 18px;
+    width: 50%;
+    box-sizing: border-box;
+    resize: none;
+    overflow: auto;
+}
+
+#checkbox, .div-entry {
+    margin: 30px auto;
+}
+
+.SendForm {
+    padding: 12px;
+    font-weight: bold;
+}
+
+.SendForm:hover {
+    transition: 0.5s all;
+    cursor: pointer;
+    transform: scale(1.05);
+}

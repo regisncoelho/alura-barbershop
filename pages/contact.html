@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contatos - Barbearia Alura</title>
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/contact.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="logo"><img src="../assets/images/logo-branco.png" alt="Imagem monocromática branca contendo a silhueta de uma cabeça, onde somente o cabelo, barba e óculos quadrados estão visíveis. Ao meio da figura, abaixo dos óculos, lê-se 'Alura - Established 2019' "></h1>
+        <nav class="navigation">
+            <ul>
+                <li><a href="../index.html" class="nav-links">Home</a></li>
+                <li><a href="products.html" class="nav-links">Serviços</a></li>
+                <li><a href="contact.html" class="nav-links">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-contact">
+        <form class="form-contact">
+            <label class="entry-label" for="name">Nome Completo</label>
+            <input class="entry" type="text" name="" id="name" required>
+
+            <label class="entry-label" for="email">Email</label>
+            <input class="entry" type="email" name="" id="email" placeholder="usuario@dominio.com.br" required>
+
+            <label class="entry-label" for="phone">Número para contato</label>
+            <input class="entry" type="tel" name="" id="phone" placeholder="(DDD) XXXXX-XXXX" required>
+
+            <label class="entry-label" for="message">Deixe aqui sua mensagem</label>
+            <textarea class="entry" name="" id="message" cols="30" rows="10"></textarea>
+
+            <fieldset class="div-entry">
+                <legend class="entry-label"> Como prefere receber nosso contato?</legend>
+                <label class="entry-label" for="email-choice"><input type="radio" name="contact-choice"
+                        id="email-choice">Email</label>
+
+                <label class="entry-label" for="phone-choice"><input type="radio" name="contact-choice"
+                        id="phone-choice">Telefone</label>
+
+                <label class="entry-label" for="whatsapp-choice" lang="en"><input type="radio" name="contact-choice"
+                        id="whatsapp-choice" checked>Whatsapp</label>
+            </fieldset>
+            <label class="entry-label" for="day-period">Em qual horário prefere ser contatado?</label>
+            <select class="entry" name="day-period" id="">
+                <option value="select">---Selecione aqui</option>
+                <option value="morning">Manhã</option>
+                <option value="afternoon">Tarde</option>
+                <option value="evening">Noite</option>
+                <option value="none">Não tenho preferência de horário</option>
+            </select>
+
+            <label for="check-mailing" class="entry-label" id="checkbox">Gostaria de receber nossas novidades por email?
+                <input type="checkbox" name="" id="check-mailing"></label>
+
+            <input class="entry SendForm" type="submit" value="Enviar formulário">
+        </form>
+    </main>
+    <footer class="footer">
+        <img src="../assets/images/logo-branco.png" alt="Imagem monocromática branca contendo a silhueta de uma cabeça, onde somente o cabelo, barba e óculos quadrados estão visíveis. Ao meio da figura, abaixo dos óculos, lê-se 'Alura - Established 2019' ">
+        <p class="copyright">&copy; Copyright Barbearia Alura - 2021</p>
+    </footer>
+</body>
+
+</html>
