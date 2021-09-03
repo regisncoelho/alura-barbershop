@@ -15,8 +15,14 @@
 
 <body>
     <header class="header">
-        <h1 class="logo"><img src="assets/images/logo-branco.png"
-                alt="Imagem monocromática branca contendo a silhueta de uma cabeça, onde somente o cabelo, barba e óculos quadrados estão visíveis. Ao meio da figura, abaixo dos óculos, lê-se 'Alura - Established 2019' ">
+        <h1 class="logo">
+            <picture>
+                <source type="image/webp" srcset="assets/images/logo-branco.webp">
+                <source type="image/jpeg" srcset="assets/images/logo-branco.png">
+                <img src="assets/images/logo-branco.png"
+                    alt="Imagem monocromática branca contendo a silhueta de uma cabeça, onde somente o cabelo, barba e óculos quadrados estão visíveis. Ao meio da figura, abaixo dos óculos, lê-se 'Alura - Established 2019' ">
+            </picture>
+
         </h1>
         <nav class="navigation">
             <ul>
@@ -26,8 +32,12 @@
             </ul>
         </nav>
     </header>
-    <img id="banner" src="assets/images/banner.jpg"
-        alt="Imagem em preto e branco mostra uma barbearia estilo retro, com uma mulher em primeiro plano cortando os cabelos de um homem, que aparece de costas, e uma bancada e espelhos em segundo plano onde pode-se ver outros profissionais e clientes.">
+    <picture>
+        <source type="image/webp" srcset="assets/images/banner.webp">
+        <source type="image/jpeg" srcset="assets/images/banner.jpg">
+        <img id="banner" src="assets/images/banner.jpg"
+            alt="Imagem em preto e branco mostra uma barbearia estilo retro, com uma mulher em primeiro plano cortando os cabelos de um homem, que aparece de costas, e uma bancada e espelhos em segundo plano onde pode-se ver outros profissionais e clientes.">
+    </picture>
     <main>
         <section class="about">
             <h2 class="title2">Sobre a Barbearia Alura</h2>
@@ -101,7 +111,11 @@
                         </tr>
                     </tbody>
                 </table>
-                <img class="imgbenefits" src="assets/images/beneficios.jpg" alt="">
+                <picture>
+                    <source type="image/webp" srcset="assets/images/beneficios.webp">
+                    <source type="image/jpeg" srcset="assets/images/beneficios.jpg">
+                    <img id="imgbenefits" src="assets/images/beneficios.jpg" alt="">
+                </picture>
             </div>
         </section>
         <section class="contact">
@@ -109,7 +123,8 @@
             <div class="div-wrapper" style="margin: 40px;">
                 <!-- <div> -->
                 <p><img src="assets/images/whatsapp.png" width="51,2px" height="51,2px" alt=""> Whatsapp: <a
-                        href="https://wa.me/5531555555?text=Olá, pessoal da Alura" target="_blank" rel="noreferrer">555-5555</a></p>
+                        href="https://wa.me/5531555555?text=Olá, pessoal da Alura" target="_blank"
+                        rel="noreferrer">555-5555</a></p>
                 <p><img src="assets/images/phone.png" alt="" width="51,2px" height="51,2px">Telefone: <a
                         href="tel:+55316666666">666-6666</a></p>
                 <p><img src="assets/images/mail.png" width="51,2px" height="51,2px" alt="">Email: <a

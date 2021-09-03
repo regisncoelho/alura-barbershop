@@ -72,8 +72,8 @@ em strong {
     justify-content: space-around;
 }
 
-.imgbenefits {
-    max-width: 35%;
+#imgbenefits {
+    max-width: 500px;
     filter: grayscale(100%);
 }
 
