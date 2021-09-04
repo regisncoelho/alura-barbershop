@@ -1,16 +1,19 @@
 .products {
-    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
     margin: 0 auto;
     padding: 50px 0;
+    list-style-type: none;
 }
 
 .items-products {
-    display: inline-block;
+    width: 320px;
     text-align: center;
-    width: 30%;
     vertical-align: top;
     border: solid #000 3px;
-    margin: 0 1.5%;
+    margin: 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
     border-radius: 15px;

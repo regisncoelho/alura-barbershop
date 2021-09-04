@@ -1,13 +1,11 @@
 .main-contact {
-    width: 1000px;
     margin: 0 auto;
-    font-size: 20px;
-
+    font-size: 1em;
 }
 
 .form-contact {
     margin: 40px 0;
- }
+}
 
 .entry-label {
     display: block;
@@ -19,11 +17,12 @@
     display: block;
     margin: 0 auto 25px;
     padding: 4px 9px;
-    font-size: 18px;
     width: 50%;
     box-sizing: border-box;
     resize: none;
     overflow: auto;
+    font-family: inherit;
+    font-size: 1em;
 }
 
 #checkbox, .div-entry {
@@ -32,7 +31,6 @@
 
 .SendForm {
     padding: 12px;
-    font-weight: bold;
 }
 
 .SendForm:hover {

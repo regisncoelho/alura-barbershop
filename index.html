@@ -9,6 +9,11 @@
 
     <title>Barbearia Alura</title>
     <link rel="stylesheet" href="assets/css/reset.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/home.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -35,7 +40,7 @@
     <picture>
         <source type="image/webp" srcset="assets/images/banner.webp">
         <source type="image/jpeg" srcset="assets/images/banner.jpg">
-        <img id="banner" src="assets/images/banner.jpg"
+        <img class="banner" src="assets/images/banner.jpg"
             alt="Imagem em preto e branco mostra uma barbearia estilo retro, com uma mulher em primeiro plano cortando os cabelos de um homem, que aparece de costas, e uma bancada e espelhos em segundo plano onde pode-se ver outros profissionais e clientes.">
     </picture>
     <main>
@@ -52,7 +57,7 @@
                         clientes a
                         cada dia.
                     </p>
-                    <img id="map" src="assets/images/map.webp" alt="" width="280px" height="210px">
+                    <img class="map" src="assets/images/map.webp" alt="Mapa genérico">
                 </div>
                 <div>
                     <h3 class="title3">Missão</h3>
@@ -74,7 +79,7 @@
         </section>
         <section class="open-hours">
             <h2 class="title2"> Horário de Funcionamento</h2>
-            <div>
+            <div class="div-wrapper">
                 <table>
                     <thead>
                         <th>Dia da semana</th>
@@ -111,17 +116,16 @@
                         </tr>
                     </tbody>
                 </table>
-                <picture>
+                <picture class="grayscale">
                     <source type="image/webp" srcset="assets/images/beneficios.webp">
                     <source type="image/jpeg" srcset="assets/images/beneficios.jpg">
-                    <img id="imgbenefits" src="assets/images/beneficios.jpg" alt="">
+                    <img class="grayscale" src="assets/images/beneficios.jpg" alt="Barbeiro aparando barba grisalha" width="500px">
                 </picture>
             </div>
         </section>
         <section class="contact">
-            <h3 class="title3">Agende um horário com um de nossos profissionais:</h3>
+            <h3 class="title2">Agende um horário com um de nossos profissionais:</h3>
             <div class="div-wrapper" style="margin: 40px;">
-                <!-- <div> -->
                 <p><img src="assets/images/whatsapp.png" width="51,2px" height="51,2px" alt=""> Whatsapp: <a
                         href="https://wa.me/5531555555?text=Olá, pessoal da Alura" target="_blank"
                         rel="noreferrer">555-5555</a></p>
@@ -129,12 +133,9 @@
                         href="tel:+55316666666">666-6666</a></p>
                 <p><img src="assets/images/mail.png" width="51,2px" height="51,2px" alt="">Email: <a
                         href="mailto:">barbearia@alura.com.br</a></p>
-                <!-- </div> -->
-                <!-- <div> -->
-                <p>
-                    ou deixe que <a href="pages/contact.html">nós entremos em contato</a>
+                <p id="contact-link">
+                    <a href="pages/contact.html">Ou preencha este formulário e nós entraremos em contato</a>
                 </p>
-                <!-- </div> -->
             </div>
         </section>
     </main>

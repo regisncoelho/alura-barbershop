@@ -1,7 +1,7 @@
 .title {
     padding-left: 20px;
 }
-#banner {
+.banner {
     width: 100%;
 }
 a {
@@ -16,35 +16,37 @@ a {
 
 .div-wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .div-wrapper div {
-    width: 40%;
+    width: 35%;
     text-align: justify;
 }
 
-#map {
+.map {
     margin: 20px auto 20px;
     display: block;
     filter: grayscale(75%);
+    max-width: 70%;
 }
 
 .title2 {
     text-align: center;
-    font-size: 36px;
-    margin-bottom: 40px;
+    font-size: 2em;
+    margin-bottom: 1em;
 }
 
 .title3 {
     text-align: center;
-    font-size: 24px;
+    font-size: 1.2em;
     margin: 20px;
 }
 
 p {
     text-align: justify;
-    font-size: 20px;
+    font-size: 1em;
     text-indent: 1em;
     margin-bottom: 0.5em;
 }
@@ -52,7 +54,7 @@ p {
 .lists {
     display: flex;
     flex-direction: column;
-    font-size: 20px;
+    font-size: inherit;
     margin: 0.5em auto;
     width: fit-content;
 }
@@ -63,23 +65,17 @@ em strong {
 
 .open-hours {
     background: #bbb;
-    padding: 40px;
+    padding: 30px;
 }
 
-.open-hours div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-#imgbenefits {
-    max-width: 500px;
+.grayscale {
     filter: grayscale(100%);
 }
 
 .open-hours table {
-    font-size: 20px;
-    width: 30%;
+    font-size: inherit;
+    width: 28%;
+    margin: 1em;
 }
 
 .open-hours th {
@@ -88,7 +84,6 @@ em strong {
     font-weight: bold;
     text-align: center;
     background: #ccc;
-    
 }
 
 .open-hours th, .open-hours td {
@@ -97,6 +92,18 @@ em strong {
     vertical-align: middle;
 }
 
-.contact>p {
-    display: inline;
+.contact {
+    padding: 30px;
+}
+
+.contact p {
+    display: inline-block;
+    margin: 0.5em;
+    text-align: left;
+    width: 350px;
+}
+
+#contact-link {
+    margin-top: 3em;
+    width: auto;
 }

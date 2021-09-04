@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .header {
     background: url('../images/bg.jpg');
     margin: 0;
@@ -16,7 +20,7 @@
     text-transform: uppercase;
     color: #fff;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 1.2em;
     text-decoration: none;
 }
 
