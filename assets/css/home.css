@@ -1,13 +1,5 @@
-.title {
-    padding-left: 20px;
-}
 .banner {
     width: 100%;
-}
-a {
-    text-decoration: none;
-    font-weight: bold;
-    color: inherit;
 }
 .about {
     background-color: white;
@@ -31,26 +23,6 @@ a {
     filter: grayscale(75%);
     max-width: 70%;
 }
-
-.title2 {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 1em;
-}
-
-.title3 {
-    text-align: center;
-    font-size: 1.2em;
-    margin: 20px;
-}
-
-p {
-    text-align: justify;
-    font-size: 1em;
-    text-indent: 1em;
-    margin-bottom: 0.5em;
-}
-
 .lists {
     display: flex;
     flex-direction: column;
