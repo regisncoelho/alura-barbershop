@@ -1,0 +1,75 @@
+@media screen and (max-width:900px) {
+    #man-shaving {
+        display: none;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        font-size: 0.8em;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .title2 {
+        font-size: 1.35em;
+    }
+
+    .title3 {
+        font-size: 1.1em;
+    }
+
+    .div-wrapper {
+        flex-direction: column;
+    }
+
+    .div-wrapper div {
+        width: 100%;
+    }
+
+    .map {
+        max-width: 40%;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    .open-hours table {
+      width: 97%;
+      font-size: 0.8em;
+      margin: 0 auto;
+    }
+
+    .open-hours th, .open-hours td {
+        border: 1px solid #000;
+        padding: 8px 10px;
+        vertical-align: middle;
+    }
+
+    .div-contact {
+        margin: 0;
+    }
+
+    .footer {
+        padding: 0px;
+    }
+
+    .footer img {
+        width: 100px;
+    }
+
+    .entry, .form-contact textarea, .entry-label {
+        width: 80%;
+    }
+
+    .contact p {
+        width: 100%;
+    }
+}

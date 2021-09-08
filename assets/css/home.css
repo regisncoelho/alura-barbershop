@@ -1,15 +1,16 @@
 .banner {
     width: 100%;
 }
+section {
+    padding: 30px;
+}
 .about {
     background-color: white;
-    padding: 30px;
 }
 
 .div-wrapper {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 
 .div-wrapper div {
@@ -29,6 +30,15 @@
     font-size: inherit;
     margin: 0.5em auto;
     width: fit-content;
+    list-style-type: none;
+}
+
+.items::before {
+    content: "✄";
+    font-size: 1.3em;
+    position: relative;
+    left: -10px;
+    top: 2px;
 }
 
 em strong {
@@ -37,7 +47,6 @@ em strong {
 
 .open-hours {
     background: #bbb;
-    padding: 30px;
 }
 
 .grayscale {
@@ -64,8 +73,9 @@ em strong {
     vertical-align: middle;
 }
 
-.contact {
-    padding: 30px;
+.div-contact {
+    margin: 40px;
+
 }
 
 .contact p {
@@ -78,4 +88,10 @@ em strong {
 #contact-link {
     margin-top: 3em;
     width: auto;
+    transition: 0.3s;
+}
+
+#contact-link:hover {
+    text-decoration: underline;
+    transform: scale(1.03);
 }
